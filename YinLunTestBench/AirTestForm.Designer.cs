@@ -33,18 +33,20 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.LB_Pre5 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.LB_Pre4 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.LB_Pre3 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.LB_Pre2 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.LB_Pre1 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.panel_Curve = new System.Windows.Forms.Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.textBox_ActualPreRaise = new System.Windows.Forms.TextBox();
+            this.label48 = new System.Windows.Forms.Label();
             this.textBox_BoomPressure = new System.Windows.Forms.TextBox();
             this.textBox_ContinueTime = new System.Windows.Forms.TextBox();
             this.textBox_EndTime = new System.Windows.Forms.TextBox();
@@ -131,8 +133,22 @@
             this.TB_Save = new System.Windows.Forms.ToolStripButton();
             this.TB_CancelSave = new System.Windows.Forms.ToolStripButton();
             this.TB_SaveContinue = new System.Windows.Forms.ToolStripButton();
-            this.textBox_ActualPreRaise = new System.Windows.Forms.TextBox();
-            this.label48 = new System.Windows.Forms.Label();
+            this.LB_Pre21 = new System.Windows.Forms.Label();
+            this.LB_Pre20 = new System.Windows.Forms.Label();
+            this.LB_Pre19 = new System.Windows.Forms.Label();
+            this.LB_Pre18 = new System.Windows.Forms.Label();
+            this.LB_Pre17 = new System.Windows.Forms.Label();
+            this.LB_Pre16 = new System.Windows.Forms.Label();
+            this.LB_Pre15 = new System.Windows.Forms.Label();
+            this.LB_Pre14 = new System.Windows.Forms.Label();
+            this.LB_Pre13 = new System.Windows.Forms.Label();
+            this.LB_Pre12 = new System.Windows.Forms.Label();
+            this.LB_Pre11 = new System.Windows.Forms.Label();
+            this.LB_Pre10 = new System.Windows.Forms.Label();
+            this.LB_Pre9 = new System.Windows.Forms.Label();
+            this.LB_Pre8 = new System.Windows.Forms.Label();
+            this.LB_Pre7 = new System.Windows.Forms.Label();
+            this.LB_Pre6 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -162,17 +178,33 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.LB_Pre21);
+            this.groupBox1.Controls.Add(this.LB_Pre20);
+            this.groupBox1.Controls.Add(this.LB_Pre19);
+            this.groupBox1.Controls.Add(this.LB_Pre18);
+            this.groupBox1.Controls.Add(this.LB_Pre17);
+            this.groupBox1.Controls.Add(this.LB_Pre16);
+            this.groupBox1.Controls.Add(this.LB_Pre15);
+            this.groupBox1.Controls.Add(this.LB_Pre14);
+            this.groupBox1.Controls.Add(this.LB_Pre13);
+            this.groupBox1.Controls.Add(this.LB_Pre12);
+            this.groupBox1.Controls.Add(this.LB_Pre11);
+            this.groupBox1.Controls.Add(this.LB_Pre10);
+            this.groupBox1.Controls.Add(this.LB_Pre9);
+            this.groupBox1.Controls.Add(this.LB_Pre8);
+            this.groupBox1.Controls.Add(this.LB_Pre7);
+            this.groupBox1.Controls.Add(this.LB_Pre6);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.LB_Pre5);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.LB_Pre4);
             this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.LB_Pre3);
             this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.LB_Pre2);
             this.groupBox1.Controls.Add(this.label11);
-            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.LB_Pre1);
             this.groupBox1.Controls.Add(this.label12);
             this.groupBox1.Controls.Add(this.panel_Curve);
             this.groupBox1.Location = new System.Drawing.Point(12, 155);
@@ -185,7 +217,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(40, 526);
+            this.label6.Location = new System.Drawing.Point(40, 516);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(35, 12);
             this.label6.TabIndex = 6;
@@ -194,97 +226,97 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(182, 526);
+            this.label7.Location = new System.Drawing.Point(182, 516);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(35, 12);
             this.label7.TabIndex = 7;
             this.label7.Text = "0:0:0";
             // 
-            // label5
+            // LB_Pre5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(11, 17);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 12);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "label5";
+            this.LB_Pre5.AutoSize = true;
+            this.LB_Pre5.Location = new System.Drawing.Point(11, 399);
+            this.LB_Pre5.Name = "LB_Pre5";
+            this.LB_Pre5.Size = new System.Drawing.Size(41, 12);
+            this.LB_Pre5.TabIndex = 5;
+            this.LB_Pre5.Text = "label5";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(324, 526);
+            this.label8.Location = new System.Drawing.Point(324, 516);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(35, 12);
             this.label8.TabIndex = 8;
             this.label8.Text = "0:0:0";
             // 
-            // label4
+            // LB_Pre4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(11, 139);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 12);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "label4";
+            this.LB_Pre4.AutoSize = true;
+            this.LB_Pre4.Location = new System.Drawing.Point(10, 423);
+            this.LB_Pre4.Name = "LB_Pre4";
+            this.LB_Pre4.Size = new System.Drawing.Size(41, 12);
+            this.LB_Pre4.TabIndex = 4;
+            this.LB_Pre4.Text = "label4";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(466, 526);
+            this.label9.Location = new System.Drawing.Point(466, 516);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(35, 12);
             this.label9.TabIndex = 9;
             this.label9.Text = "0:0:0";
             // 
-            // label3
+            // LB_Pre3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(11, 261);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 12);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "label3";
+            this.LB_Pre3.AutoSize = true;
+            this.LB_Pre3.Location = new System.Drawing.Point(10, 447);
+            this.LB_Pre3.Name = "LB_Pre3";
+            this.LB_Pre3.Size = new System.Drawing.Size(41, 12);
+            this.LB_Pre3.TabIndex = 3;
+            this.LB_Pre3.Text = "label3";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(608, 526);
+            this.label10.Location = new System.Drawing.Point(608, 516);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(35, 12);
             this.label10.TabIndex = 10;
             this.label10.Text = "0:0:0";
             // 
-            // label2
+            // LB_Pre2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(11, 383);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 12);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "label2";
+            this.LB_Pre2.AutoSize = true;
+            this.LB_Pre2.Location = new System.Drawing.Point(10, 471);
+            this.LB_Pre2.Name = "LB_Pre2";
+            this.LB_Pre2.Size = new System.Drawing.Size(41, 12);
+            this.LB_Pre2.TabIndex = 2;
+            this.LB_Pre2.Text = "label2";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(756, 526);
+            this.label11.Location = new System.Drawing.Point(756, 516);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(35, 12);
             this.label11.TabIndex = 11;
             this.label11.Text = "0:0:0";
             // 
-            // label1
+            // LB_Pre1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(11, 505);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 12);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.LB_Pre1.AutoSize = true;
+            this.LB_Pre1.Location = new System.Drawing.Point(11, 495);
+            this.LB_Pre1.Name = "LB_Pre1";
+            this.LB_Pre1.Size = new System.Drawing.Size(41, 12);
+            this.LB_Pre1.TabIndex = 1;
+            this.LB_Pre1.Text = "label1";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(908, 526);
+            this.label12.Location = new System.Drawing.Point(908, 516);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(35, 12);
             this.label12.TabIndex = 12;
@@ -294,7 +326,7 @@
             // 
             this.panel_Curve.Location = new System.Drawing.Point(57, 21);
             this.panel_Curve.Name = "panel_Curve";
-            this.panel_Curve.Size = new System.Drawing.Size(879, 494);
+            this.panel_Curve.Size = new System.Drawing.Size(879, 483);
             this.panel_Curve.TabIndex = 0;
             // 
             // groupBox2
@@ -323,6 +355,23 @@
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "实时信息";
+            // 
+            // textBox_ActualPreRaise
+            // 
+            this.textBox_ActualPreRaise.Location = new System.Drawing.Point(422, 37);
+            this.textBox_ActualPreRaise.Name = "textBox_ActualPreRaise";
+            this.textBox_ActualPreRaise.Size = new System.Drawing.Size(100, 21);
+            this.textBox_ActualPreRaise.TabIndex = 94;
+            this.textBox_ActualPreRaise.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(414, 22);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(119, 12);
+            this.label48.TabIndex = 93;
+            this.label48.Text = "实时升压速率(KPa/S)";
             // 
             // textBox_BoomPressure
             // 
@@ -1144,22 +1193,149 @@
             this.TB_SaveContinue.ToolTipText = "取消保存";
             this.TB_SaveContinue.Click += new System.EventHandler(this.TB_SaveContinue_Click);
             // 
-            // textBox_ActualPreRaise
+            // LB_Pre21
             // 
-            this.textBox_ActualPreRaise.Location = new System.Drawing.Point(422, 37);
-            this.textBox_ActualPreRaise.Name = "textBox_ActualPreRaise";
-            this.textBox_ActualPreRaise.Size = new System.Drawing.Size(100, 21);
-            this.textBox_ActualPreRaise.TabIndex = 94;
-            this.textBox_ActualPreRaise.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.LB_Pre21.AutoSize = true;
+            this.LB_Pre21.Location = new System.Drawing.Point(10, 15);
+            this.LB_Pre21.Name = "LB_Pre21";
+            this.LB_Pre21.Size = new System.Drawing.Size(47, 12);
+            this.LB_Pre21.TabIndex = 42;
+            this.LB_Pre21.Text = "label21";
             // 
-            // label48
+            // LB_Pre20
             // 
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(414, 22);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(119, 12);
-            this.label48.TabIndex = 93;
-            this.label48.Text = "实时升压速率(KPa/S)";
+            this.LB_Pre20.AutoSize = true;
+            this.LB_Pre20.Location = new System.Drawing.Point(10, 39);
+            this.LB_Pre20.Name = "LB_Pre20";
+            this.LB_Pre20.Size = new System.Drawing.Size(47, 12);
+            this.LB_Pre20.TabIndex = 41;
+            this.LB_Pre20.Text = "label20";
+            // 
+            // LB_Pre19
+            // 
+            this.LB_Pre19.AutoSize = true;
+            this.LB_Pre19.Location = new System.Drawing.Point(10, 63);
+            this.LB_Pre19.Name = "LB_Pre19";
+            this.LB_Pre19.Size = new System.Drawing.Size(47, 12);
+            this.LB_Pre19.TabIndex = 40;
+            this.LB_Pre19.Text = "label19";
+            // 
+            // LB_Pre18
+            // 
+            this.LB_Pre18.AutoSize = true;
+            this.LB_Pre18.Location = new System.Drawing.Point(10, 87);
+            this.LB_Pre18.Name = "LB_Pre18";
+            this.LB_Pre18.Size = new System.Drawing.Size(47, 12);
+            this.LB_Pre18.TabIndex = 39;
+            this.LB_Pre18.Text = "label18";
+            // 
+            // LB_Pre17
+            // 
+            this.LB_Pre17.AutoSize = true;
+            this.LB_Pre17.Location = new System.Drawing.Point(9, 111);
+            this.LB_Pre17.Name = "LB_Pre17";
+            this.LB_Pre17.Size = new System.Drawing.Size(47, 12);
+            this.LB_Pre17.TabIndex = 38;
+            this.LB_Pre17.Text = "label17";
+            // 
+            // LB_Pre16
+            // 
+            this.LB_Pre16.AutoSize = true;
+            this.LB_Pre16.Location = new System.Drawing.Point(10, 135);
+            this.LB_Pre16.Name = "LB_Pre16";
+            this.LB_Pre16.Size = new System.Drawing.Size(47, 12);
+            this.LB_Pre16.TabIndex = 27;
+            this.LB_Pre16.Text = "label16";
+            // 
+            // LB_Pre15
+            // 
+            this.LB_Pre15.AutoSize = true;
+            this.LB_Pre15.Location = new System.Drawing.Point(10, 159);
+            this.LB_Pre15.Name = "LB_Pre15";
+            this.LB_Pre15.Size = new System.Drawing.Size(47, 12);
+            this.LB_Pre15.TabIndex = 37;
+            this.LB_Pre15.Text = "label15";
+            // 
+            // LB_Pre14
+            // 
+            this.LB_Pre14.AutoSize = true;
+            this.LB_Pre14.Location = new System.Drawing.Point(10, 183);
+            this.LB_Pre14.Name = "LB_Pre14";
+            this.LB_Pre14.Size = new System.Drawing.Size(47, 12);
+            this.LB_Pre14.TabIndex = 36;
+            this.LB_Pre14.Text = "label14";
+            // 
+            // LB_Pre13
+            // 
+            this.LB_Pre13.AutoSize = true;
+            this.LB_Pre13.Location = new System.Drawing.Point(10, 207);
+            this.LB_Pre13.Name = "LB_Pre13";
+            this.LB_Pre13.Size = new System.Drawing.Size(47, 12);
+            this.LB_Pre13.TabIndex = 35;
+            this.LB_Pre13.Text = "label13";
+            // 
+            // LB_Pre12
+            // 
+            this.LB_Pre12.AutoSize = true;
+            this.LB_Pre12.Location = new System.Drawing.Point(10, 231);
+            this.LB_Pre12.Name = "LB_Pre12";
+            this.LB_Pre12.Size = new System.Drawing.Size(47, 12);
+            this.LB_Pre12.TabIndex = 34;
+            this.LB_Pre12.Text = "label12";
+            // 
+            // LB_Pre11
+            // 
+            this.LB_Pre11.AutoSize = true;
+            this.LB_Pre11.Location = new System.Drawing.Point(10, 255);
+            this.LB_Pre11.Name = "LB_Pre11";
+            this.LB_Pre11.Size = new System.Drawing.Size(47, 12);
+            this.LB_Pre11.TabIndex = 33;
+            this.LB_Pre11.Text = "label11";
+            // 
+            // LB_Pre10
+            // 
+            this.LB_Pre10.AutoSize = true;
+            this.LB_Pre10.Location = new System.Drawing.Point(10, 279);
+            this.LB_Pre10.Name = "LB_Pre10";
+            this.LB_Pre10.Size = new System.Drawing.Size(47, 12);
+            this.LB_Pre10.TabIndex = 28;
+            this.LB_Pre10.Text = "label10";
+            // 
+            // LB_Pre9
+            // 
+            this.LB_Pre9.AutoSize = true;
+            this.LB_Pre9.Location = new System.Drawing.Point(10, 303);
+            this.LB_Pre9.Name = "LB_Pre9";
+            this.LB_Pre9.Size = new System.Drawing.Size(41, 12);
+            this.LB_Pre9.TabIndex = 32;
+            this.LB_Pre9.Text = "label9";
+            // 
+            // LB_Pre8
+            // 
+            this.LB_Pre8.AutoSize = true;
+            this.LB_Pre8.Location = new System.Drawing.Point(10, 327);
+            this.LB_Pre8.Name = "LB_Pre8";
+            this.LB_Pre8.Size = new System.Drawing.Size(41, 12);
+            this.LB_Pre8.TabIndex = 31;
+            this.LB_Pre8.Text = "label8";
+            // 
+            // LB_Pre7
+            // 
+            this.LB_Pre7.AutoSize = true;
+            this.LB_Pre7.Location = new System.Drawing.Point(10, 351);
+            this.LB_Pre7.Name = "LB_Pre7";
+            this.LB_Pre7.Size = new System.Drawing.Size(41, 12);
+            this.LB_Pre7.TabIndex = 30;
+            this.LB_Pre7.Text = "label7";
+            // 
+            // LB_Pre6
+            // 
+            this.LB_Pre6.AutoSize = true;
+            this.LB_Pre6.Location = new System.Drawing.Point(10, 375);
+            this.LB_Pre6.Name = "LB_Pre6";
+            this.LB_Pre6.Size = new System.Drawing.Size(41, 12);
+            this.LB_Pre6.TabIndex = 29;
+            this.LB_Pre6.Text = "label6";
             // 
             // AirTestForm
             // 
@@ -1213,11 +1389,11 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripButton TB_Save;
         private System.Windows.Forms.Panel panel_Curve;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label LB_Pre5;
+        private System.Windows.Forms.Label LB_Pre4;
+        private System.Windows.Forms.Label LB_Pre3;
+        private System.Windows.Forms.Label LB_Pre2;
+        private System.Windows.Forms.Label LB_Pre1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
@@ -1307,5 +1483,21 @@
         private System.Windows.Forms.ToolStripButton TB_SaveContinue;
         private System.Windows.Forms.TextBox textBox_ActualPreRaise;
         private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label LB_Pre21;
+        private System.Windows.Forms.Label LB_Pre20;
+        private System.Windows.Forms.Label LB_Pre19;
+        private System.Windows.Forms.Label LB_Pre18;
+        private System.Windows.Forms.Label LB_Pre17;
+        private System.Windows.Forms.Label LB_Pre16;
+        private System.Windows.Forms.Label LB_Pre15;
+        private System.Windows.Forms.Label LB_Pre14;
+        private System.Windows.Forms.Label LB_Pre13;
+        private System.Windows.Forms.Label LB_Pre12;
+        private System.Windows.Forms.Label LB_Pre11;
+        private System.Windows.Forms.Label LB_Pre10;
+        private System.Windows.Forms.Label LB_Pre9;
+        private System.Windows.Forms.Label LB_Pre8;
+        private System.Windows.Forms.Label LB_Pre7;
+        private System.Windows.Forms.Label LB_Pre6;
     }
 }

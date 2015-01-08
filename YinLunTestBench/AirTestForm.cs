@@ -155,9 +155,9 @@ namespace YinLunTestBench
             m_SampleStartTimer.AutoReset = true;
             m_SampleStartTimer.Interval = 600;
             m_SampleStartTimer.Elapsed += new ElapsedEventHandler(SampleStartFun);
-            m_SampleStartTimer.Enabled = true;           
+            m_SampleStartTimer.Enabled = true;
 
-            m_DrawCurveHandle.Init(panel_Curve, "BTypeLine", Color.Red, 1.5f, 20, 10);
+            m_DrawCurveHandle.Init(panel_Curve, "BTypeLine", Color.Red, 1.5f, 20, panel_Curve.Height / 20);
         }
 
         private void ShowMainFormInfo(string text)
@@ -434,11 +434,27 @@ namespace YinLunTestBench
                 label_BoomPressure.Visible = false;
                 m_yMax = 3.2f;
 
-                label5.Text = m_yMax.ToString() + "MPa";
-                label4.Text = (m_yMax * 3 / 4).ToString() + "MPa";
-                label3.Text = (m_yMax * 2 / 4).ToString() + "MPa";
-                label2.Text = (m_yMax * 1 / 4).ToString() + "MPa";
-                label1.Text = (m_yMax * 0 / 4).ToString() + "MPa";
+                LB_Pre21.Text = m_yMax.ToString() + "MPa";
+                LB_Pre20.Text = (m_yMax * 19 / 20).ToString("0.0") + "MPa";
+                LB_Pre19.Text = (m_yMax * 18 / 20).ToString("0.0") + "MPa";
+                LB_Pre18.Text = (m_yMax * 17 / 20).ToString("0.0") + "MPa";
+                LB_Pre17.Text = (m_yMax * 16 / 20).ToString("0.0") + "MPa";
+                LB_Pre16.Text = (m_yMax * 15 / 20).ToString("0.0") + "MPa";
+                LB_Pre15.Text = (m_yMax * 14 / 20).ToString("0.0") + "MPa";
+                LB_Pre14.Text = (m_yMax * 13 / 20).ToString("0.0") + "MPa";
+                LB_Pre13.Text = (m_yMax * 12 / 20).ToString("0.0") + "MPa";
+                LB_Pre12.Text = (m_yMax * 11 / 20).ToString("0.0") + "MPa";
+                LB_Pre11.Text = (m_yMax * 10 / 20).ToString("0.0") + "MPa";
+                LB_Pre10.Text = (m_yMax * 9 / 20).ToString("0.0") + "MPa";
+                LB_Pre9.Text = (m_yMax * 8 / 20).ToString("0.0") + "MPa";
+                LB_Pre8.Text = (m_yMax * 7 / 20).ToString("0.0") + "MPa";
+                LB_Pre7.Text = (m_yMax * 6 / 20).ToString("0.0") + "MPa";
+                LB_Pre6.Text = (m_yMax * 5 / 20).ToString("0.0") + "MPa";
+                LB_Pre5.Text = (m_yMax * 4 / 20).ToString("0.0") + "MPa";
+                LB_Pre4.Text = (m_yMax * 3 / 20).ToString("0.0") + "MPa";
+                LB_Pre3.Text = (m_yMax * 2 / 20).ToString("0.0") + "MPa";
+                LB_Pre2.Text = (m_yMax * 1 / 20).ToString("0.0") + "MPa";
+                LB_Pre1.Text = (m_yMax * 0 / 20).ToString("0.0") + "MPa";
             }
             else
             {
@@ -447,11 +463,27 @@ namespace YinLunTestBench
                 label_BoomPressure.Visible = true;
                 m_yMax = 3.2f;
 
-                label5.Text = m_yMax.ToString() + "MPa";
-                label4.Text = (m_yMax * 3 / 4).ToString() + "MPa";
-                label3.Text = (m_yMax * 2 / 4).ToString() + "MPa";
-                label2.Text = (m_yMax * 1 / 4).ToString() + "MPa";
-                label1.Text = (m_yMax * 0 / 4).ToString() + "MPa";
+                LB_Pre21.Text = m_yMax.ToString() + "MPa";
+                LB_Pre20.Text = (m_yMax * 19 / 20).ToString("0.0") + "MPa";
+                LB_Pre19.Text = (m_yMax * 18 / 20).ToString("0.0") + "MPa";
+                LB_Pre18.Text = (m_yMax * 17 / 20).ToString("0.0") + "MPa";
+                LB_Pre17.Text = (m_yMax * 16 / 20).ToString("0.0") + "MPa";
+                LB_Pre16.Text = (m_yMax * 15 / 20).ToString("0.0") + "MPa";
+                LB_Pre15.Text = (m_yMax * 14 / 20).ToString("0.0") + "MPa";
+                LB_Pre14.Text = (m_yMax * 13 / 20).ToString("0.0") + "MPa";
+                LB_Pre13.Text = (m_yMax * 12 / 20).ToString("0.0") + "MPa";
+                LB_Pre12.Text = (m_yMax * 11 / 20).ToString("0.0") + "MPa";
+                LB_Pre11.Text = (m_yMax * 10 / 20).ToString("0.0") + "MPa";
+                LB_Pre10.Text = (m_yMax * 9 / 20).ToString("0.0") + "MPa";
+                LB_Pre9.Text = (m_yMax * 8 / 20).ToString("0.0") + "MPa";
+                LB_Pre8.Text = (m_yMax * 7 / 20).ToString("0.0") + "MPa";
+                LB_Pre7.Text = (m_yMax * 6 / 20).ToString("0.0") + "MPa";
+                LB_Pre6.Text = (m_yMax * 5 / 20).ToString("0.0") + "MPa";
+                LB_Pre5.Text = (m_yMax * 4 / 20).ToString("0.0") + "MPa";
+                LB_Pre4.Text = (m_yMax * 3 / 20).ToString("0.0") + "MPa";
+                LB_Pre3.Text = (m_yMax * 2 / 20).ToString("0.0") + "MPa";
+                LB_Pre2.Text = (m_yMax * 1 / 20).ToString("0.0") + "MPa";
+                LB_Pre1.Text = (m_yMax * 0 / 20).ToString("0.0") + "MPa";
             }
         }
 

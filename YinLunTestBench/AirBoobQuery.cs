@@ -137,7 +137,7 @@ namespace YinLunTestBench
             string com = "select * from " + m_TableName;
             m_MainFormHandle.m_AirBoobAccessHandle.QueryData(com, DG_DataBase);
 
-            m_DrawCurveHandle.Init(panel_Curve, "BTypeLine", Color.Red, 1.5f, 20, 10);
+            m_DrawCurveHandle.Init(panel_Curve, "BTypeLine", Color.Red, 1.5f, 20, panel_Curve.Height / 10);
             DG_TestData.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
             m_ExcelHandle.Init(m_ExcelModuleFilePath, "sheet1");
@@ -173,11 +173,17 @@ namespace YinLunTestBench
             float xMax = m_HistoryPt[len - 1].X;
             m_DrawCurveHandle.DrawCurve(panel_Curve, Color.Red, xMax + 2, m_yMax);
 
-            label5.Text = m_yMax.ToString("0.0") + "MPa";
-            label4.Text = (m_yMax * 3 / 4).ToString("0.0") + "MPa";
-            label3.Text = (m_yMax * 2 / 4).ToString("0.0") + "MPa";
-            label2.Text = (m_yMax * 1 / 4).ToString("0.0") + "MPa";
-            label1.Text = (m_yMax * 0 / 4).ToString("0.0") + "MPa";
+            LB_Pre11.Text = m_yMax.ToString("0.0") + "MPa";
+            LB_Pre10.Text = (m_yMax * 9 / 10).ToString("0.0") + "MPa";
+            LB_Pre9.Text = (m_yMax * 8 / 10).ToString("0.0") + "MPa";
+            LB_Pre8.Text = (m_yMax * 7 / 10).ToString("0.0") + "MPa";
+            LB_Pre7.Text = (m_yMax * 6 / 10).ToString("0.0") + "MPa";
+            LB_Pre6.Text = (m_yMax * 5 / 10).ToString("0.0") + "MPa";
+            LB_Pre5.Text = (m_yMax * 4 / 10).ToString("0.0") + "MPa";
+            LB_Pre4.Text = (m_yMax * 3 / 10).ToString("0.0") + "MPa";
+            LB_Pre3.Text = (m_yMax * 2 / 10).ToString("0.0") + "MPa";
+            LB_Pre2.Text = (m_yMax * 1 / 10).ToString("0.0") + "MPa";
+            LB_Pre1.Text = (m_yMax * 0 / 10).ToString("0.0") + "MPa";
 
 
             
